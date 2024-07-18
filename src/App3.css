@@ -1,0 +1,46 @@
+fieldset {
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.display {
+    text-align: center;
+    width: 310px;
+    height: 100px;
+    background-color: azure;
+    border: 1px solid gray;
+    border-radius: 4px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.display>div:first-child {
+    background-color: azure;
+    margin: 15px;
+}
+
+.display>div:last-child {
+    background-color: azure;
+    text-align: right;
+    margin-right: 15px;
+    font-size: medium;
+    font-style: oblique;
+}
+
+.btn3, .btnReset3 {
+    width: 310px;
+    height: 50px;
+    background-image: linear-gradient(to right, red, green, yellow);
+    text-align: center;
+    margin: 5px 5px 5px 0;
+    border-color: lightgray;
+    border-radius: 4px;
+}
+
+.btnReset3 {
+    background-image: none;
+    background-color: lightgray;
+    color: gray;
+    border-color: lightgray;
+    border-radius: 4px;
+}
